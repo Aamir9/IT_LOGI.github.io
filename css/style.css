@@ -1,0 +1,1400 @@
+/*Hero Section Start*/
+.navbar{
+	background-color:rgba(0,0,0,0);
+}
+.nav-link{
+	margin:10px!important;
+	color: white;
+}
+.nav-link:hover{
+	color:#359aff!important; 
+}
+.btn-lg{
+	background-color: #359aff!important;
+	border-radius:0px !important;
+	border:1px solid #359aff!important;
+	font-size:18px !important;
+	color: white !important;
+	width:180px!important;
+}
+.btn-lg:hover{
+	background-color:white!important;
+	color: #359aff!important;
+}
+.bgimg{
+	background-image: url("../image/bg3.jpg");
+	background-size:cover;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:73vh;
+}
+.headerset{
+	width: 100%;
+	height:100vh;
+	position:relative;
+	left:0%;
+	top:30%;
+	padding-top:160px;
+
+}
+.headerset h2{
+	font-size:42px;
+	text-align: center;
+}
+.headerset h1{
+	font-size:56px;
+	font-weight: bold;
+	text-align: center;
+}
+.headerset p{
+	font-size:25px;
+	text-align: center;
+	justify-content: center;
+}
+
+
+/*End Hero Section*/
+/*Our Client area*/
+.clienset{
+	padding:50px;
+	box-sizing:border-box;
+	background-color:#f4f4f4;
+}
+.clienset h2{
+	font-size:42px;
+	text-align: center;
+	/* /*font-family: arial;*/ */
+}
+/*End Client area*/
+/*Blue section area*/
+.bluecol1{
+	height:250px;
+	background-color:#0a1220!important;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	padding-top:20px;
+
+}
+.bluecol2{
+	height:250px;
+	background-color:#0a1220!important;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	padding-top:20px; 
+
+}
+.bluecol1 span{
+	margin-left:30px;
+	color: white;
+}
+.atag{
+	margin-left:30px;
+	color: white;
+
+}
+.atag:hover{	
+	color: #eb4642;
+}
+.bluecol1 ul{
+	list-style-type: none;
+	position: relative;
+	top:5%;
+	right: 2%;
+}
+.bluecol1 ul li{
+	display: inline;
+}
+.bluecol1 ul li a{
+	color:#C6B9B9;
+	margin:0px;
+
+	
+}
+.bluecol2 span{
+	margin-left:30px;
+	color: white;
+}
+.atag{
+	margin-left:30px;
+	color: white;
+
+}
+.atag:hover{	
+	color: #359aff;
+}
+.bluecol2 ul{
+	list-style-type: none;
+	position: relative;
+	top:5%;
+	right: 2%;
+}
+.bluecol2 ul li{
+	display: inline;
+}
+.bluecol2 ul li a{
+	color:#C6B9B9;
+	margin:0px;
+	
+}
+/*End Blue section area*/
+
+/*Our work area*/
+.workset{
+	padding:30px;
+	box-sizing:border-box;
+	background-color:#f4f4f4;
+}
+.workset h2{
+	font-size:52px;
+	text-align: center;
+	/* /*font-family: arial;*/
+} */
+/*End work area*/
+
+/*Slider area*/
+
+.slider{
+	background-color:#f4f4f4;
+}
+
+/*End Slider*/
+
+/*footer*/
+.footer{
+		background-color:#212930!important;
+		height: auto;
+		padding-bottom:20px;
+}
+.footer h5{
+	margin-top:20px;
+	color: #359aff;
+}
+.footer ul{
+	list-style-type: none;
+	position: relative;
+	top:5%;
+	right:15%;
+}
+
+.footer ul li{
+	margin: 10px;
+	color:#C6B9B9;
+}
+.footer ul li a{
+	color:#C6B9B9;
+	margin:0px;
+	
+}
+.footer ul li a:hover{
+	color:#359aff;	
+}
+
+.social ul{
+	display: flex;
+	position: absolute;
+	top:100%;
+	left:22%;
+	transform: translate(-50%,-50%);
+}
+.social ul li{
+	list-style: none;
+	margin:5px;
+}
+.social ul li a{
+	color: black;
+	height:40px;
+	width:40px;
+	font-size:20px;
+	background-color:black;
+	text-align: center;
+	line-height:40px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+.social ul li a .fab{
+	position: relative;
+	color:white;
+	transition: .5s;
+}
+.social ul li a:hover .fab{
+	transform: rotateY(360deg);
+
+}
+.social ul li a:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #359aff;
+	transition: .5s;
+	border:3px solid #359aff;
+	
+}
+
+.social ul li a:hover:before{
+	top: 0;
+
+}
+.footer2{
+	border-top: 1px solid gray;
+}
+.footer2 p{
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+}
+/*=======
+services page
+=========*/
+/*header set */
+.bgimg2{
+	background-image: url("../image/service-bg.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+   
+
+}
+.headerset2{
+	padding:165px;
+    width: 100%;
+	height:100vh;
+}
+
+.headerset2 h1{
+	font-size:56px;
+	font-weight: bold;
+	
+}
+.headerset2 p{
+	font-size:25px;
+}
+/* End header set */
+/*client set*/
+.clienset2{
+	padding:50px;
+	box-sizing:border-box;
+	background-color:#f4f4f4;
+}
+.clienset2 h2{
+	font-size:42px;
+	text-align: center;
+	/*font-family: arial;*/
+}
+.clienset2 h3{
+	font-size:42px;
+	text-align: center;
+	font-family: Anaphora;
+}
+/*End client set*/
+/*top developer*/
+.bgimg3{
+	background-image: url("../image/t1.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+}
+.topten{
+	height: auto;
+	padding: 10px;
+}
+
+.topten h2{
+	color:black;
+}
+.topten p{
+	font-size:18px;
+	text-align:left;
+	margin-top: 5px;
+	justify-content: center;
+    color:black;
+    width: 50%;
+}
+
+/*top developer*/
+
+/* ===========
+   ourservices
+   ===========*/
+   /*service Descripation area*/
+   .topset{
+	padding:50px;
+	box-sizing:border-box;
+	background-color:white;
+}
+.topset h3{
+	text-align: center;
+	font-size: 30px;
+	font-family:arial;
+	font-family: 'Roboto', sans-serif;
+}
+.topser{
+	padding:50px;
+	box-sizing:border-box;
+	background-color:white;
+}
+.topser h3{
+	text-align: center;
+	font-size: 30px;
+	font-family:arial;
+	font-family: 'Roboto', sans-serif;
+}
+
+.topser ul{
+	list-style-type:none;
+	position: relative;
+	top:5%;
+	left:15%;
+}
+
+.topser ul li{
+	margin: 10px;
+	display: inline;
+	text-align: center;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+
+
+/* End service Descripation area*/
+/*service area*/
+.serviceset1{
+	height:auto;
+	background-color:  #2C3539;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	padding-top:20px;
+
+}
+.serviceset1:hover{
+	background-color:#0a1220!important;
+}
+
+.serviceset1 span{
+	margin-left:40%;
+	color: white;
+}
+.serviceset1 h5{
+	text-align: center;
+	color: white;
+	font-size:18px;
+}
+.serviceset1 p{
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+.serviceset2{
+	height:auto;
+	background-color:  #2C3539;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	padding-top:20px; 
+
+}
+.serviceset2:hover{
+	background-color:#0a1220!important;
+}
+
+.serviceset2 span{
+	margin-left:40%;
+	color: white;
+}
+.serviceset2 h5{
+	text-align: center;
+	color: white;
+	font-size:15px;
+}
+.serviceset2 p{
+	justify-content: center;
+	color: white;
+	text-align: center;
+	font-size:18px;
+}
+.topser{
+	padding:50px;
+	box-sizing:border-box;
+	background-color:#f4f4f4;
+}
+.topser h3{
+	text-align: center;
+	font-size: 30px;
+	font-family:arial;
+	font-family: 'Roboto', sans-serif;
+}
+.topser p{
+	text-align: center;
+	
+}
+/*=======
+ End services page
+=========*/
+/*========================
+ Portfolio page
+  ========================*/
+
+ .bgport{
+	background-image: url("../image/port.png");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+}
+.portheader{
+	height: 100vh;
+	padding:165px;
+}
+.portfolio-conatainer {
+  position: relative;
+  width:100%;
+}
+
+.portfolio-image {
+  display: block;
+  width: 100%;
+  height:auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:white;
+}
+
+.portfolio-conatainer:hover .overlay {
+  opacity: 1;
+}
+
+.text-image{
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top:60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*========================
+  End Portfolio page
+  ========================*/
+
+  /*========================
+ About page
+  ========================*/
+
+.about-bg-img{
+	background-image: url("../image/company-bg.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+}
+.about-header-set{
+	padding:200px;
+}
+.about-header-set h1{
+	
+}
+.about-header-set h3{
+	font-size: 28px;
+	/*font-family: arial;*/
+}
+.about-header-set p{
+	font-size:20px;
+}
+/*Our company*/
+.our-company{
+	padding:80px;
+}
+.our-company p{
+	font-size:18px;
+}
+/* End Our company*/
+/*Our Vision*/
+.vision-bg-img{
+	background-image: url("../image/Vision.jpg");
+	background-size:80% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width:100%;
+    background-position:left;
+	height:100vh;
+	margin-bottom:5%;
+}
+.vision-box{
+     width:570px;
+     height:550px;
+     background-color: #17a2b8;
+     position:relative;
+     left:50%;
+     top:4%;
+     padding:40px;
+    outline:2px solid #17a2b8;
+
+}
+.vision-box h2{
+	color: white;
+	font-weight: bold; 
+}
+.vision-box p{
+	color: white;
+	font-size: 18px; 
+}
+.vision-box .fas{
+     position: absolute;
+     right:99%;
+     top:4%;
+     color: #17a2b8;
+}
+/* End Our Vision*/
+/*Our mission*/
+.mission-bg-img{
+	background-image: url("../image/mission.jpg");
+	background-size:80% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width:100%;
+    background-position:right;
+	height:100vh;
+
+}
+.mission-box{
+     width:570px;
+     height:550px;
+     background-color: #17a2b8;
+     position:relative;
+     left:6%;
+     top:4%;
+     padding:40px;
+    outline:2px solid #17a2b8;
+
+}
+.mission-box h2{
+	color: white;
+	font-weight: bold; 
+}
+.mission-box p{
+	color: white;
+	font-size: 18px; 
+}
+.mission-box span{
+     position: absolute;
+     left:99%;
+     top:4%;
+     color: #17a2b8;
+}
+/* End Our Mission*/
+/*Engagement-model*/
+.Engagement-model{
+   padding-top:50px;
+   background-color: #f4f5f5;
+}
+.Engagement-model h2{
+   padding:55px;
+   font-family:sans-serif;
+}
+.Engagement-model img{
+        margin-bottom: 20px;
+}
+
+/*Engagement-model*/
+/*End Company*/
+/*========================
+    End About page
+  ========================*/
+/*===========
+career page
+  ==========*/
+.career-bg-img{
+	background-image: url("../image/career-bg.png");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width:100%;
+	height:100vh;
+
+}
+.career-header-set{
+	padding:150px;
+	width:100%;
+	height:100vh;
+
+}
+.career-header-set h4{
+	text-align: left;
+
+}
+.career-header-set h1{
+	text-align: left;
+	font-size: 60px;
+
+}
+.career-header-set p{
+	text-align: left;
+	font-size: 20px;
+}
+.cool-facts{
+	background: #212930;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	border-bottom:1px solid gray;
+	
+}
+
+/*===========
+End career page
+  ==========*/
+
+/*===========
+  Skill Page
+  ==========*/
+  .Technology-bg-img{
+  	background-image: url("../image/expert-bg.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width:100%;
+	height:100vh;
+
+  }
+  .technology-header-set{
+  	padding: 245px;
+  }
+
+.technology-skill{
+	padding: 70px;
+}
+
+/*===========
+  End Skill Page
+  ==========*/
+/*===========
+  contact page
+  ==========*/
+.contact{
+	padding:20px 300px 20px 300px;
+}
+
+.contact .btn-info{
+	border-radius:6px !important;
+	font-size:18px !important;
+	color: white !important;
+	width:540px!important;
+}
+
+
+  /*===========
+  End contact page
+  ==========*/
+
+
+
+
+/*=======
+ Responsive header section
+=========*/
+
+/* ========
+i pad pro 1024
+   =======
+ */
+@media screen and (max-width:1024px) {
+	/*Home page*/
+  .bgimg{
+	height:50vh;
+}
+.headerset{
+	height:50vh;
+	
+}
+.headerset h2{
+	font-size:40px;
+	text-align: center;
+}
+.headerset h1{
+	font-size:44px;
+	font-weight: bold;
+	text-align: center;
+}
+.headerset p{
+	font-size:20px;
+	text-align: center;
+	justify-content: center;
+}
+
+
+/*work area*/
+.workset h2{
+	font-size:50px;
+	
+}
+/*End Home page*/
+/*services page Responsive*/
+
+.bgimg3{
+	
+	height:50vh;
+}
+/*header set */
+.bgimg2{
+	height:50vh;
+   
+
+}
+.headerset2{
+	height:50vh;
+	padding: 100px;
+
+}
+
+.headerset2 h1{
+	font-size:46px;
+	font-weight: bold;
+	text-align:center;
+	color:white;
+}
+.headerset2 p{
+	font-size:18px;
+	text-align:center;
+   color:white;
+}
+/* End header set */
+ /*End services page Responsive*/
+ /*========================
+ Portfolio page
+  ========================*/
+  .bgport{
+  	height: 50vh;
+
+  }
+.portheader{
+	height: 50vh;
+    padding:150px;
+}
+/*========================
+  End Portfolio page
+  ========================*/
+
+/*========================
+ About page
+  ========================*/
+
+.about-bg-img{
+	height:50vh;
+}
+.about-header-set{
+	padding-top:70px;
+	height:50vh;
+}
+.about-header-set h3{
+	font-size: 28px;
+	/*font-family: arial;*/
+}
+.about-header-set p{
+	font-size:16px;
+}
+/*Our Vision*/
+.vision-bg-img{
+	height:80vh;
+}
+.vision-box{
+     left:38%;
+     width:600px;
+}
+/* End Our Vision*/
+/*Our mission*/
+.mission-bg-img{
+	height:80vh;
+
+}
+/* End Our Mission*/
+
+/*End Company*/
+/*========================
+    End About page
+  ========================*/
+
+
+/*===========
+career page
+  ==========*/
+.career-bg-img{
+	height:50vh;
+
+}
+.career-header-set{
+	height:50vh;
+	padding-top:85px;
+
+}
+.career-header-set h1{
+	font-size:40px;
+}
+.career-header-set p{
+	font-size:16px;
+}
+/*===========
+End career page
+  ==========*/
+  /*===========
+  Skill Page
+  ==========*/
+  .Technology-bg-img{
+  	height:50vh;
+  }
+  .technology-header-set{
+  	height:50vh;
+  	padding-top:80px;
+  }
+/*===========
+  End Skill Page
+  ==========*/
+}
+
+  /* ========
+i pad 768
+   =======
+ */
+@media screen and (max-width:768px){
+	/*header*/
+	.nav-link{
+	margin:0px!important;
+	font-size: 16px!important;
+	
+}
+.navbar-brand{
+	display: none;
+}
+
+	.bgimg{
+	height:50vh;
+}
+.headerset{
+     height:50vh;
+     top:25%;
+	
+}
+.headerset h2{
+	font-size:30px;
+	text-align: center;
+}
+.headerset h1{
+	font-size:34px;
+	font-weight: bold;
+	text-align: center;
+}
+.headerset p{
+	font-size:20px;
+	text-align: center;
+	justify-content: center;
+}
+.workset h2{
+	font-size:40px;
+	
+}
+/*footer socail media*/
+
+.social ul{
+	display: flex;
+	position: absolute;
+	top:100%;
+
+	
+}
+/*header set */
+.bgimg2{
+	height:50vh;
+   
+}
+.headerset2{
+	padding-top:50px;
+	height:50vh;
+
+}
+
+/* End header set 2*/
+/*top developer*/
+
+.topten{
+	height: auto;
+	
+}
+
+.topten h2{
+	color:black;
+}
+.topten p{
+    width:70%;
+}
+
+.topser ul{
+	left:0%;
+}
+
+.topser ul li{
+	margin-left:3px;
+}
+/*top developer*/
+
+/*========================
+ Portfolio page
+  ========================*/
+
+.bgport{
+	height:50
+}
+.portheader{
+	height:50;
+	padding:70px;
+
+}
+.portheader h1{
+	    font-size:40px;
+}
+/*========================
+  End Portfolio page
+  ========================*/
+
+  /*========================
+ About page
+  ========================*/
+
+.about-bg-img{
+	height:50vh;
+}
+.about-header-set{
+	height:50vh;
+	padding:80px;
+}
+.about-header-set h1{
+     font-size:50px;
+}
+.about-header-set h3{
+	font-size:24px;
+	
+}
+.about-header-set p{
+	font-size:18px;
+}
+/*Our Vision*/
+.vision-bg-img{
+	height:80vh;
+}
+.vision-box{
+     left:18%;
+}
+/* End Our Vision*/
+/*Our mission*/
+.mission-bg-img{
+	height:80vh;
+
+}
+/* End Our Mission*/
+
+/*End Company*/
+/*========================
+    End About page
+  ========================*/
+/*===========
+career page
+  ==========*/
+.career-bg-img{
+	height:60vh;
+
+}
+.career-header-set{
+	height:60vh;
+	padding-top:90px;
+}
+.career-header-set h1{
+	font-size:30px;
+}
+/*===========
+End career page
+  ==========*/
+  /*===========
+  Skill Page
+  ==========*/
+  .Technology-bg-img{
+  	 	height:60vh;
+  }
+  .technology-header-set{
+  	height:60vh;
+  	padding-top:80px;
+  }
+  .technology-header-set h1{
+  	font-size:38px;
+  }
+/*===========
+  End Skill Page
+  ==========*/
+
+
+	
+}
+/* ========
+i phone plus 414
+   =======
+ */
+@media screen and (max-width:414px){
+	.bgimg{
+	height:50vh;
+
+}
+.headerset{
+	height:50vh;
+	top: 0%;
+	padding-top:30%;
+	background-color: #212930!important;
+
+	
+}
+.headerset h2{
+	font-size:18px;
+	text-align: center;
+	font-weight: bold;
+}
+.headerset h1{
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+}
+.headerset p{
+	font-size:14px;
+	text-align: center;
+	justify-content: center;
+}
+.workset h2{
+	font-size:40px;
+	
+}
+/*Our work area*/
+.workset h2{
+	font-size:32px;
+	text-align: center;
+	/*font-family: arial;*/
+}
+/*End work area*/
+/*Our Client area*/
+.clienset h2{
+	font-size:32px;
+	text-align: center;
+	/*font-family: arial;*/
+}
+.clienset p{
+	text-align: center;
+	justify-content: center;
+}
+/*End Client area*/
+/*Service page Responsive*/
+/*header set */
+.bgimg2{
+	height:50vh;
+   
+
+}
+.headerset2{
+	height:50vh;
+	padding-top:30px;
+	background-color: #212930!important;
+}
+
+.headerset2 h1{
+	font-size:16px;
+
+}
+.headerset2 p{
+	font-size:14px;
+}
+/* End header set */
+/*client set*/
+.clienset2{
+	padding:50px;
+}
+.clienset2 h2{
+	font-size:30px;
+	/*font-family: arial;*/
+}
+.clienset2 h3{
+	font-size:30px;
+	/*font-family: arial;*/
+}
+/*End client set*/
+/*top developer*/
+.bgimg3{
+	background-image: none;
+}
+.topten{
+	height: auto;
+	
+}
+
+.topten h2{
+	color:black;
+	font-size: 24px;
+	text-align: center;
+}
+.topten p{
+	font-size:16px;
+    color:black;
+    width:100%;
+}
+/*top developer*/
+   /*service Descripation area*/
+.topset{
+	height: auto;
+}
+.topset h3{
+	text-align: center;
+	margin-top:120px;
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.topser ul{
+	left:0%;
+}
+
+.topser ul li{
+	margin-left:10px;
+}
+/* End service Descripation area*/
+/*========================
+ Portfolio page
+  ========================*/
+
+.bgport{
+	height:50vh;
+}
+.portheader{
+	height:50vh;
+	padding-top:120px;
+	background-color: #212930!important;
+}
+.portheader h1{
+	    font-size:18px;
+}
+/*========================
+  End Portfolio page
+  ========================*/
+/*========================
+ About page
+  ========================*/
+
+.about-bg-img{
+	height:50vh;
+}
+.about-header-set{
+	height:50vh;
+	padding:30px;
+	background-color: #212930!important;
+}
+
+.about-header-set h1{
+	font-size:40px;
+	
+}
+
+.about-header-set h3{
+	font-size:24px;
+	
+}
+.about-header-set p{
+	font-size:18px;
+}
+/*Our company*/
+.our-company{
+	padding:30px;
+}
+.our-company h1{
+	font-size: 28px;
+}
+.our-company p{
+	font-size:18px;
+}
+/* End Our company*/
+/*Our Vision*/
+.vision-bg-img{
+	background-image: none;
+}
+.vision-box{
+     width:100%;
+     height:auto;
+     left:0%;
+     top:0%;
+     padding:10px;
+}
+
+.vision-box p{
+	
+	font-size:16px; 
+}
+.vision-box .fas{
+     display: none;
+}
+/* End Our Vision*/
+/*Our mission*/
+.mission-bg-img{
+    background-image: none;
+
+}
+.mission-box{
+     width:100%;
+     height:auto;
+     left:0%;
+     margin-top:10%;
+     padding:10px;
+
+}
+.mission-box h2{
+	color: white;
+	font-weight: bold; 
+}
+.mission-box p{
+	font-size:16px; 
+}
+.mission-box span{
+     display: none;
+}
+/* End Our Mission*/
+/*Engagement-model*/
+.Engagement-model{
+   padding-top:30px;
+   background-color: #f4f5f5;
+}
+.Engagement-model h2{
+   padding:0px;
+   font-size: 20px;
+   font-family:sans-serif;
+}
+.Engagement-model img{
+        margin-bottom: 20px;
+}
+
+/*Engagement-model*/
+/*End Company*/
+/*========================
+    End About page
+  ========================*/
+/*===========
+career page
+  ==========*/
+.career-bg-img{
+	height:50vh;
+
+}
+.career-header-set{
+	height:50vh;
+	padding:34px;
+	background-color: #212930!important;
+}
+.career-header-set h1{
+	font-size:20px;
+	color: white;
+}
+.career-header-set p{
+	font-size:16px;
+	color: white;
+}
+.Concierge h2{
+	font-size:30px!important;
+	padding: 0px!important;
+}
+.Concierge p{
+	font-size:14px!important;
+	padding:0px!important;
+}
+
+
+.Concierge a{
+	font-size: 16px;
+}
+.opening-view{
+	padding-top:0px;
+	margin-top:135px;
+	padding-bottom:10px;
+	
+}
+
+.column1{
+	padding: 30px;
+}
+
+.column2{
+	border: 1px solid gray;
+	padding: 30px;
+}
+
+.column3{
+	border: 1px solid gray;
+	padding: 30px;
+	border-top: none;
+}
+
+.column4{
+	border: 1px solid gray;
+	border-top: none;
+	padding: 30px;
+}
+
+.column5{
+	border: 1px solid gray;
+	padding: 30px;
+	border-top: none;
+
+}
+
+/*===========
+End career page
+  ==========*/
+ /*===========
+  Skill Page
+  ==========*/
+  .Technology-bg-img{
+ 
+	height:50vh;
+
+  }
+  .technology-header-set{
+  	padding:40px;
+  	height:50vh;
+	background-color: #212930!important;
+  }
+
+.technology-skill{
+	padding:30px;
+}
+.technology-skill img{
+	width: 100%;
+}
+/*===========
+  End Skill Page
+  ==========*/
+
+
+
+
+	}
+
